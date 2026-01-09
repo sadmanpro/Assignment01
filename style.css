@@ -31,3 +31,76 @@ body{
     padding: 12.5px 16px;
     text-align: center;
 }
+
+.banner{
+    background-image: url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 674px;
+    background-size: cover;
+}
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color
+}
+.banner-top-btn{
+    color: #469165;
+    font-size:16px;
+    background-color:white;
+    margin-top:123px;
+    padding: 8px 12px;
+    border-radius:20px;
+    display:flex;
+    gap:6px;
+    
+}
+.line1{
+    font-size: 72px;
+    color: white;
+    font-weight:700;
+    line-height:84px;
+    max-width: 740px;
+    text-align: center;
+}
+.line1 span{
+    color: #469165;
+    text-align: center;
+}
+
+.banner-text-container p{
+    max-width: 500px;
+    color: white;
+    text-align: center;
+}
+
+.banner-bottom-btn{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+
+}
+.start-vault-btn{
+    color: white;
+    font-size: 16px;
+    padding: 16.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    display: flex;
+    gap: 10px;
+}
+.how-it-works-btn{
+    color: white;
+     font-size: 16px;
+    padding: 16.5px 16px;
+    border: 1px solid white;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+#play-icon{
+    width: 20px;
+}
