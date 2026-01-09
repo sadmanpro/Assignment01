@@ -155,3 +155,48 @@ margin-top: 15px;}
     color: #627382;
     margin: 0;
 }
+.section-03{
+    height: 840px;
+    
+}
+.section-03-box{
+    display: flex;
+    margin: 0 120px;
+    align-items: center;
+    gap: 60px;
+}
+.section3-right{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+#top-text{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section3-right h1{
+    font-size: 48px;
+    font-weight: 700x;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.section3-right-description{
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.section3-right-lines{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.checkcircle{
+    width: 20px;
+    height: 20px;
+}
