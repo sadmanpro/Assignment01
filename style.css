@@ -104,3 +104,54 @@ body{
 #play-icon{
     width: 20px;
 }
+
+.card-heading-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.card{
+   width: 322px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px -2px 8px rgba(0,0,0, 0.06);
+    margin-top: 44px;
+}
+.card-logo{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 30px;
+    
+    
+}
+.card-logo img{
+margin-top: 15px;}
+
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    max-width: 210px;
+}
+.card-section{
+    text-align: center;
+}
+.card-section h1{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.card-section p{
+    font-size: 16px;
+    color: #627382;
+    margin: 0;
+}
